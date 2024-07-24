@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <a href="#" rel="">
+            <img class="logo-alura" src="./assets/LogoAlura.svg" alt="Logo Alura">
+        </a>
+    </header>
+
+    <main>
+        <section class="texto-ingresado">
+            <textarea class="texto-ingresado-encriptar" id="ingresarTexto" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="texto-ingresado-aviso">
+                <img class="img-aviso" src="./assets/bi_exclamation-circle-fill.svg" alt="Icono Exclamación">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="texto-ingresado-container">
+                <button type="submit" id="botonEncriptar" class="btn-encriptar">Encriptar</button>
+                <button type="submit" id="botonDesencriptar" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="texto-resultado">
+            <div class="texto-resultado-container">
+                <img class="img-muneco" src="./assets/Muneco.svg" alt="Imagen Muñeco">
+                <p class="primer-texto">Ningún mensaje fue encontrado</p>
+                <p class="segundo-texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea type="mensaje" class="texto-resultado-mostrar" id="textoResultado" readonly></textarea>
+            <button type="submit" class="btn-copiar" id="botonCopiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright" id="copyright"></p>
+        <p class="alberto"><strong> | Alberto Vallecillo | </strong></p>
+        <a class="github" href="https://github.com/" target="_blank">
+                <img src="./assets/github.svg" alt="Logo GitHub"></a>
+    
+        <a class="linkedin" href="https://linkedin.com/in/"  target="_blank">
+                <img src="./assets/linkedin.svg" alt="Logo LinkedIn"></a>
+    </footer>
+    <script src="./js/encrypter.js"></script>
+</body>
+
+</html>
