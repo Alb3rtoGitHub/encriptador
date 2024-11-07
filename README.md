@@ -1,9 +1,15 @@
 <em> # Encriptador / Desencriptador de Texto </em>
 
+## 📲 Insignia Challenge 📲
+<p align="center">
+<img src="./assets/Insignia 3 Encriptador.png" align="center" height="500" width="500" />
+</p>
+
 # 🎯 Challenge Encriptador / Alura Latam + Oracle ONE 🎯
 
+<p align="center">
 <img src="./assets/Challenge-Encrypter-front.png" align="center" height="400" width="850" />  
-
+</p>
 
 ## 📝 Descripción 📝
 
